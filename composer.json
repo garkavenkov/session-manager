@@ -1,0 +1,19 @@
+{
+    "name": "garkavenkov/session-manager",
+    "description": "Wrapper for $_SESSION",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Http\\Session\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maksim Garkavenkov",
+            "email": "maksim.garkavenkov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
